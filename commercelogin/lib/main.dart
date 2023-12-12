@@ -1,4 +1,4 @@
-import 'package:commercelogin/views/splash/splash_screen.dart';
+import 'package:commercelogin/views/check_out/check_out_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: const CheckOutScreen(),
     );
   }
 }
